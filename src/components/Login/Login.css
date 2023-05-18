@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid black;
+    float: right;
+  }
+  
+  .image-container {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    letter-spacing: 8px;
+    color: #84ED53;
+    font-size: 1.5em;
+  }
+  
+  
+  
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+input[type="password"] {
+  width: 80%;
+  padding: 20px; /* Ajuste a altura conforme necessário */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: 1px solid black;
+  
+}
+  
+  .btn-text-center {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 30px;
+    background-color: white;
+    color: #84ED53;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .anm{
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+
+  
+  
+  .create {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
