@@ -14,7 +14,6 @@ const Navbar = () => {
         <img src={bars} alt="bars" onClick={handleClickLogo} />
         {showOptions && (
           <ul className="options-list">
-            {/* Opções de menu */}
             <li>Opção 1</li>
             <li>Opção 2</li>
             <li>Opção 3</li>
@@ -24,7 +23,6 @@ const Navbar = () => {
       <div className="right-section">
         <div className="user-profile">
           <div className="profile-image">
-            {/* Imagem de perfil */}
             <img src="" alt="Foto de perfil" />
           </div>
           <span className="username">Nome de usuário</span>
