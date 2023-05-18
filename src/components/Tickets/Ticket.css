@@ -1,0 +1,28 @@
+
+
+.ticket-info {
+    border-bottom: solid 1px rgb(221, 182, 182);
+}
+
+.ticket-number {
+    margin-bottom: 15px;
+}
+
+.ticket-body {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ticket-creator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.ticket-main-container {
+    margin-top: 50px;
+    border: solid 1px rgb(221, 182, 182);
+    width: 1000px;
+    margin-left: 30px;
+}
