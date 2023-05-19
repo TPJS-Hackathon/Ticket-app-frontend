@@ -18,11 +18,11 @@ function App() {
           {/* <Navbar /> */}
           {/* <Sidebar /> */}
           <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Login />} />
+            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
             <Route path="/sidebar" element={<Sidebar />} />
             <Route path="/new_ticket" element={<CreateTicket />} />
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
           {/* <Footer /> */}
         </div>
