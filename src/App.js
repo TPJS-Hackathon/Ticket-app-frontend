@@ -6,12 +6,14 @@ import Navbar from "./components/navbar/navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import { TicketContextProvider } from "./Contexts/TicketContext.js";
 import Sidebar from "./components/Sidebar/Sidebar";
+import { UserContextProvider } from "./Contexts/UserContext.jsx";
 
 
 function App() {
   return (
     <Router>
       <TicketContextProvider>
+        <UserContextProvider>
         <div className="App">
           <Navbar />
           <Routes>
@@ -19,8 +21,10 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/sidebar" element={<Sidebar />} />
           </Routes>
+          <Dashboard/>
           <Footer />
         </div>
+        </UserContextProvider>
       </TicketContextProvider>
     </Router>
   );

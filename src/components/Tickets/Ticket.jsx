@@ -2,6 +2,10 @@ import React from 'react'
 import "./Ticket.css"
 
 const Ticket = ({ticket, user}) => {
+
+    
+
+
   return (
     <div>
 
@@ -11,14 +15,14 @@ const Ticket = ({ticket, user}) => {
                     TICKET#{ticket.Incident_ID}
                 </div>  
                 <div className='ticket-title'> 
-                    HOW TO DEPOSIT MONEY
+                    Ticket Title
                 </div> 
                 <div className='ticket-body'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
             </div>
             <div className='ticket-creator'>
-                User 1
+                {user.email}
             </div>
         </div>
 
