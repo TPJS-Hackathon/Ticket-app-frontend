@@ -5,6 +5,8 @@ import Dashboard from "./components/Dashboard/Dashboard.jsx";
 import Navbar from "./components/navbar/navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import { TicketContextProvider } from "./Contexts/TicketContext.js";
+import Sidebar from "./components/Sidebar/Sidebar";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/sidebar" element={<Sidebar />} />
           </Routes>
           <Footer />
         </div>
