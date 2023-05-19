@@ -1,12 +1,17 @@
 import React from 'react';
 import './create_ticket.css';
+import Sidebar from '../Sidebar/Sidebar';
+import Navbar from '../navbar/navbar';
+import Footer from '../Footer/Footer';
 
 const CreateTicket = () => {
   return (
+    <div>
+    <Sidebar />
+    <Navbar />
     <div className="create-ticket-container">
       <h1 className="ticket-heading">New Ticket</h1>
       <div className="ticket-description">
-        <h2>Create Quick Ticket</h2>
         <p>Write and address new queries and issues</p>
       </div>
       <div className="create-ticket-form-container">
@@ -14,7 +19,7 @@ const CreateTicket = () => {
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" className="input-field" placeholder="Type email" />
+              <input type="email" id="email" className="input-field" placeholder="Your Email" />
             </div>
             <div className="form-group">
               <label htmlFor="request-type">Request Ticket Type:</label>
@@ -44,6 +49,8 @@ const CreateTicket = () => {
           </div>
         </form>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

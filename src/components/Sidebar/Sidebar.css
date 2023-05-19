@@ -17,6 +17,7 @@
     transition: left 0.3s ease;
     z-index: 999;
     overflow-x: hidden; 
+    
   }
   
   .sidebar.open {
@@ -36,8 +37,7 @@
   }
   
   .logo img {
-    width: 100%;
-    max-width: 180px;
+    width: 200px;
     height: auto;
     object-fit: contain;
   }
@@ -79,16 +79,18 @@
   
   .hamburger {
     position: fixed;
+    margin-top: 5px;
     top: 30px;
     left: 10px;
     width: 30px;
-    height: 20px;
+    height: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
     z-index: 999;
     transition: transform 0.3s ease;
+    background-color: #ecf0ed;
   }
   
   .sidebar.open .hamburger {

@@ -15,15 +15,16 @@ function App() {
       <TicketContextProvider>
         <UserContextProvider>
         <div className="App">
-          <Navbar />
+          {/* <Navbar /> */}
+          {/* <Sidebar /> */}
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/sidebar" element={<Sidebar />} />
             <Route path="/new_ticket" element={<CreateTicket />} />
+            <Route path="/" element={<Dashboard />} />
           </Routes>
-          <Dashboard/>
-          <Footer />
+          {/* <Footer /> */}
         </div>
         </UserContextProvider>
       </TicketContextProvider>

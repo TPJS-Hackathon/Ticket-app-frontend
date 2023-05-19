@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #80C9C3;
+  background-color: #ecf0ed;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -9,17 +9,19 @@
   .leftNav {
     display: flex;
     align-items: center;
+    background-color: #ecf0ed;
   }
   
   .bars {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 35px;
     cursor: pointer;
+    
   }
   
   .bars-options {
     list-style: none;
-    background-color: #80C9C3;
+    background-color: #ecf0ed;
     padding: 10px;
     position: absolute;
     top: 60px;
@@ -28,26 +30,47 @@
   
   .bars-options li {
     margin-bottom: 5px;
+    
   }
   
   .welcome {
-    margin-left: 10px;
+    margin-left: 350px;
+    padding-right: 20px ;
+    background-color: #ecf0ed;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Montserrat;
   }
   
   .rightNav {
     display: flex;
     align-items: center;
+    
   }
   
   .userPic {
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 5px;
+    
+    
+  }
+
+  .picture {
+    width: 200px;
+    height: 80px;
+    padding-right: 120px;
+    object-fit:cover;
+    
   }
   
   .username {
     font-weight: bold;
+  }
+
+  .user {
+    background-color: #ecf0ed;
   }
   
