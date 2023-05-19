@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Sidebar.css';
 import logo from './Rectangle 2.png';
 import { FiHome, FiUsers, FiFileText } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,14 +29,13 @@ const Sidebar = () => {
         </div>
         <ul>
           <li>
-            <a
-              href="#"
+            <Link to="/"
               className={activeItem === 'dashboard' ? 'active' : ''}
               onClick={() => handleItemClick('dashboard')}
             >
               <FiHome className="icon" />
               Dashboard
-            </a>
+            </Link>
           </li>
           <li>
             <a

@@ -2,36 +2,45 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #80C9C3;
+    background-color: #ecf0ed;
     padding: 20px;
     width: 100%;
-    height: 150px;
+    height: 100px;
     position: absolute;
     bottom: 0;
+    z-index: 999;
   }
   
   .footer-left,
   .footer-right {
     display: flex;
     align-items: center;
+    
+    
   }
   
   .footer-middle {
     display: flex;
     flex-direction: row;
+    background-color: #ecf0ed;
   }
   
   .footer-column {
     margin-right: 20px;
+    
   }
   
   .footer p {
     margin: 0;
     padding: 5px;
+    font-weight: bold;
+    background-color: #ecf0ed;
+    font-family: Montserrat;
   }
   
   .footer img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: #ecf0ed;
   }
   

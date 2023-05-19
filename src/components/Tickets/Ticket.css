@@ -1,28 +1,82 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .ticket-info {
-    border-bottom: solid 1px rgb(221, 182, 182);
+    
+    /* background-color: #ecf0ed; */
+    margin-left: 20px;
+    margin-top: 5px;
+    
+    /* border-bottom: solid 3px #ecf0ed; */
+    
+}
+
+.ticket-info-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ecf0ed;
+}
+
+.time-posted {
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: #ecf0ed;
 }
 
 .ticket-number {
     margin-bottom: 15px;
+    background-color: #ecf0ed;
+    margin-top: 10px;
 }
 
 .ticket-body {
+    font-size: 15px;
     margin-top: 10px;
+    margin-left: 20px;
     margin-bottom: 20px;
+    background-color: #ecf0ed;
+    font-family: Montserrat;
+}
+
+.ticket-title {
+    background-color: #ecf0ed;
 }
 
 .ticket-creator {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: -100px;
+    font-weight: bold;
+    background-color: #ecf0ed;
 }
 
 
 .ticket-main-container {
-    margin-top: 50px;
-    border: solid 1px rgb(221, 182, 182);
-    width: 1000px;
-    margin-left: 30px;
+    /* margin-top: 50px; */
+    width: 1200px;
+    margin-left: 300px;
+    /* height: 100px; */
+    border-radius: 20px;
+    /* margin-bottom: px; */
+    margin-top: 15px;
+    padding-bottom: 0px ;
+    font-family: Montserrat;
+    background-color: #ecf0ed;
+}
+
+.profile-pic {
+    width: 200px;
+    margin-right: 0px;
+    height: 30px;
+    padding-right: 100px;
+    padding-top: 2px;
+    object-fit:contain;
+    background-color: #ecf0ed;
+}
+
+.user-container {
+    display: flex;
+    background-color: #ecf0ed;
+    height: 40px;
+    padding-bottom: 30px;
+    
 }

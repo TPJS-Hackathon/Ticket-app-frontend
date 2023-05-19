@@ -14,7 +14,7 @@ function Login() {
     console.log("Email:", email);
     console.log("Password:", password);
    
-    navigate("/dashboard");
+    navigate("/");
   };
 
   return (
