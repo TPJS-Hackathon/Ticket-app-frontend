@@ -30,7 +30,7 @@
   .login-container h1 {
     text-align: center;
     letter-spacing: 8px;
-    color: #84ED53;
+    color: #80C9C3;
     font-size: 1.5em;
   }
   
@@ -61,7 +61,7 @@ input[type="password"] {
   button {
     padding: 10px 30px;
     background-color: white;
-    color: #84ED53;
+    color: #80C9C3;
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
@@ -80,7 +80,7 @@ input[type="password"] {
     text-decoration: none;
   }
   a:hover {
-    color: #84ED53;
+    color: #80C9C3;
   }
   
   .link-container {

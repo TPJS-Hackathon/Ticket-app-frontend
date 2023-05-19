@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #E7E7E7;
+    background-color: #80C9C3;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
   
   .bars-options {
     list-style: none;
-    background-color: #E7E7E7;
+    background-color: #80C9C3;
     padding: 10px;
     position: absolute;
     top: 60px;
