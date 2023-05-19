@@ -6,7 +6,7 @@ import Navbar from "./components/navbar/navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import { TicketContextProvider } from "./Contexts/TicketContext.js";
 import Sidebar from "./components/Sidebar/Sidebar";
-
+import CreateTicket from "./components/Create_ticket/create_ticket.jsx"
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/sidebar" element={<Sidebar />} />
+            <Route path="/new_ticket" element={<CreateTicket />} />
           </Routes>
           <Footer />
         </div>
