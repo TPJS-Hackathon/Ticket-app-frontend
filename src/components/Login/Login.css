@@ -10,9 +10,9 @@
     height: 500px;
     padding: 20px;
     background-color: #f2f2f2;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 20px;
     float: right;
+    border: 3px solid #55765E;
   }
   
   .image-container {
@@ -25,7 +25,6 @@
     max-width: 65%;
     height: auto;
     display: block;
-    margin: 0 auto;
   }
   
   .login-container h1 {
@@ -34,9 +33,6 @@
     color: #84ED53;
     font-size: 1.5em;
   }
-  
-  
-  
   
   
   .form-group {
@@ -53,9 +49,8 @@
 input[type="password"] {
   width: 80%;
   padding: 20px; /* Ajuste a altura conforme necessário */
-  border: 1px solid #ccc;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 3px solid #55765E;
   
 }
   
@@ -76,21 +71,25 @@ input[type="password"] {
   .anm{
     letter-spacing: 5px;
     font-size: 20px;
+    border: 3px solid #55765E;
     
   }
   
   a {
-    color: #007bff;
+    color: black;
     text-decoration: none;
+  }
+  a:hover {
+    color: #84ED53;
   }
   
   .link-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
   }
+
 
   
   

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import bars from "../../assets/bars.png";
+import "./navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ username, profilePic }) => {
   const [showOptions, setShowOptions] = useState(false);
 
   const handleClickLogo = () => {
@@ -9,23 +10,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
-      <div className="left-section">
-        <img src={bars} alt="bars" onClick={handleClickLogo} />
+    <nav className="navbar">
+      <div className="leftNav">
+        <img src={bars} alt="bars" className="bars" onClick={handleClickLogo} />
         {showOptions && (
-          <ul className="options-list">
-            <li>Opção 1</li>
-            <li>Opção 2</li>
-            <li>Opção 3</li>
+          <ul className="bars-options">
+            <li>oa</li>
+            <li>oa</li>
+            <li>oa</li>
           </ul>
         )}
+        <p className="welcome">Welcome! {username}</p>
       </div>
-      <div className="right-section">
-        <div className="user-profile">
-          <div className="profile-image">
-            <img src="" alt="Foto de perfil" />
+      <div className="rightNav">
+        <div className="user">
+          <div className="userPic">
+            <img src={profilePic} alt="profile-pic" />
           </div>
-          <span className="username">Nome de usuário</span>
+          <span className="username">{username}</span>
         </div>
       </div>
     </nav>

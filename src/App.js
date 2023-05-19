@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login/Login.jsx";
 import Dashboard from "./components/Dashboard/Dashboard.jsx";
@@ -9,17 +10,16 @@ function App() {
     <Router>
       <TicketContextProvider>
         <div className="App">
-        <Navbar />
+          <Navbar />
           <Routes>
             <Route path="/login" element={<Login />} />
-            <Route path ="/dashboard" element={<Dashboard />}/>
-            {/* Outras rotas e componentes */}
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </div>
       </TicketContextProvider>
-
     </Router>
   );
 }
 
 export default App;
+
