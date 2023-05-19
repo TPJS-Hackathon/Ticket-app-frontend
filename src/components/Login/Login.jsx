@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "./Login.css";
 import logo from "./logo.png";
+import Footer from "../Footer/Footer";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -45,10 +46,10 @@ function Login() {
 
               required
             />
-            <p className="link-container">
-    <Link to="/forget">Remember</Link>
+            <div className="link-container">
+    <input type="checkbox" /><Link className="remember" to="/forget">Remember</Link>
     <Link to="/forget-password">Forgot password</Link>
-  </p>
+  </div>
 
           </div>
           <div className="btn-text-center">
@@ -61,6 +62,7 @@ function Login() {
           </p>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
