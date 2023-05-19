@@ -29,7 +29,7 @@ const Sidebar = () => {
         </div>
         <ul>
           <li>
-            <Link to="/"
+            <Link to="/dashboard"
               className={activeItem === 'dashboard' ? 'active' : ''}
               onClick={() => handleItemClick('dashboard')}
             >

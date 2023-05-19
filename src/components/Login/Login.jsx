@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "./Login.css";
 import logo from "./logo.png";
+import Footer from "../Footer/Footer";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -61,6 +62,7 @@ function Login() {
           </p>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
