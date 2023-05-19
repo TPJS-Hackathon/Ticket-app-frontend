@@ -100,4 +100,8 @@ input[type="password"] {
     text-align: center;
     margin-top: 20px;
   }
+
+  .remember {
+    margin-left: -70px;
+  }
   

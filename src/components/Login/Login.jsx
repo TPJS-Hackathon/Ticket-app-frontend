@@ -45,10 +45,10 @@ function Login() {
 
               required
             />
-            <p className="link-container">
-    <Link to="/forget">Remember</Link>
+            <div className="link-container">
+    <input type="checkbox" /><Link className="remember" to="/forget">Remember</Link>
     <Link to="/forget-password">Forgot password</Link>
-  </p>
+  </div>
 
           </div>
           <div className="btn-text-center">
