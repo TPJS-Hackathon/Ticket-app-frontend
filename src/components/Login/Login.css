@@ -47,7 +47,7 @@
   
   input[type="email"],
 input[type="password"] {
-  width: 80%;
+  width: 100%;
   padding: 20px; /* Ajuste a altura conforme necessário */
   border-radius: 5px;
   border: 3px solid #55765E;

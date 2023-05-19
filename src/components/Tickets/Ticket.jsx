@@ -9,8 +9,6 @@ const Ticket = ({ticket, user}) => {
 
   return (
     <div className='ticket-main-container'>
-
-    
             <div className='ticket-info'>
                 <div className='ticket-info-two'>
                     <div className='ticket-number'>
@@ -24,9 +22,9 @@ const Ticket = ({ticket, user}) => {
                     {ticket.CI_Subcat}
                 </div> 
             </div>
-                <div className='ticket-body'>
+            <div className='ticket-body'>
                 Lorem ipsum dolor sit amet. Ut culpa dolores eum corrupti galisum est iusto doloremque eos quia eius aut iure magni. Sed Quis delectus non beatae voluptatibus cum facere mollitia hic aliquid minima et laboriosam sint sed quaerat cupiditate sed voluptas aspernatur? Id architecto iste ad nihil odio eum odit quia a 
-                </div>
+            </div>
             <div className='user-container'>
                     <img className='profile-pic' src={avatar} alt="" />
                 <div className='ticket-creator'>
